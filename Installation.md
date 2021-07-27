@@ -1,4 +1,4 @@
-#Installation
+# Installation
 
 ##   1. System Setup
 
@@ -14,7 +14,12 @@ The project is mainly implemented in Python3. Python3 should be pre-installed on
 
 Then, we have to install Pytorch. A reference of implementation could be found here. Next, install torchvision by:
 ```
-sudo apt-get install libjpeg-dev sudo apt-get install zlib1g-dev sudo apt-get install libpng-dev sudo apt-get install python3-matplotlib sudo pip install Pillow sudo pip install torchvision
+sudo apt-get install libjpeg-dev 
+sudo apt-get install zlib1g-dev 
+sudo apt-get install libpng-dev 
+sudo apt-get install python3-matplotlib 
+sudo pip install Pillow 
+sudo pip install torchvision
 ```
 Then, install numpy:
 ```
@@ -28,7 +33,7 @@ After that, we have to install the pretrained networks used for transfer learnin
 ```
 git clone https://github.com/Cadene/pretrained-models.pytorch.git
 cd pretrained-models.pytorch
-python3 setup.py install
+python setup.py install
 ```
 Then, we have to install Dlib face detector. To do so, first we have to install cmake and pip3:
 ```
@@ -49,7 +54,7 @@ sudo make install
 sudo ldconfig
 cd dlib-19.17
 python setup.py install
-pip3 install face_recognition
+pip install face_recognition
 ```
 Install argparse:
 ```
@@ -59,7 +64,7 @@ Download the GitHub repository and install adafruit_servoKit accordingly:
 ```
 ./installServoKit.sh
 ./installGamePad.sh
-python3 servoPlay.py
+python servoPlay.py
 ```
 Follow this tutorial to install Adafruit_blinka. Module board and busio are included in it.
 
@@ -67,11 +72,13 @@ Install module serial by:
 
 python -m pip install pyserial
 
-##1.3. Running program
+## 1.3. Running program
 
 After making sure all the libraries are installed, locate “integrated.py”. Run:
 
-python3 integrated.py
+```
+python integrated.py
+```
 
 The program will now start working. Type “Ctrl” + “C” if you want to exit it at any time.
 
