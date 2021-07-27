@@ -1,7 +1,8 @@
 # AI-Flower
 ## Introduction
 
-![](https://github.com/g7an/AI-Flower/blob/main/images/cover_page.png)
+<img src="https://github.com/g7an/AI-Flower/blob/main/images/cover_page.png" width="800" />
+<!-- ![](https://github.com/g7an/AI-Flower/blob/main/images/cover_page.png) -->
 
 AI Flower is a flower shaped robot with expression recognition function. It is my Honour's project that I worked on for two semesters during my undergraduate study. It is enlightened by an [existing experimental product](https://github.com/androidthings/experiment-expression-flower) created by Google using Android Things.
 
@@ -23,19 +24,27 @@ The neural network used in this project is **Inception-ResNet-v2**, using the me
 
 ### Human Computer Interaction
 
-![](https://github.com/g7an/AI-Flower/blob/main/images/hci.png)
+<br />
+<img src="https://github.com/g7an/AI-Flower/blob/main/images/hci.png" width="600" />
+<br />
 
 ### Technical Overview
 
-![](https://github.com/g7an/AI-Flower/blob/main/images/flow.png)
+<br />
+<img src="https://github.com/g7an/AI-Flower/blob/main/images/flow.png" width="800" />
+<br />
 
 ### State changing flow
 
-![](https://github.com/g7an/AI-Flower/blob/main/images/led_control.png)
+<br />
+<img src="https://github.com/g7an/AI-Flower/blob/main/images/led_control.png" width="800" />
+<br />
 
 ### Assembly Structure
 
-![](https://github.com/g7an/AI-Flower/blob/main/images/servo.png)
+<br />
+<img src="https://github.com/g7an/AI-Flower/blob/main/images/servo.png" width="800" />
+<br />
 
 ### Others
 
